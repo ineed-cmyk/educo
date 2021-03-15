@@ -196,12 +196,7 @@ ScreenManager:
             size_hint:(0.4,0.1)
             Image:
                 source:'Start_button_sq.png'
-        MDRectangleFlatButton:
-            text: "git test"
-            id_bg_color: 0,0,0,0
-            text_color: 0, 0, 0, 0
-            pos_hint:{"center_x": .7, "center_y": .3} 
-            size_hint:(0.4,0.1)
+        
             
 
 
