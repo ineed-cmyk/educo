@@ -1,0 +1,1 @@
+recorded_schedule = {'monday': [[490, ['wake me up', 'wake up']], [928, ['test', 'this_is_a_test']]], 'tuesday': [], 'wednesday': [], 'thursday': [], 'friday': [], 'saturday': [[1140, ['new', 'nothing']], [1138, ['test', 'this is a test']]], 'sunday': [[660, ['hackathon', 'time for it to start']]]}
