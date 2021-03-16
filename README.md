@@ -7,6 +7,6 @@ INSTRUCTION FOR USAGE
 1) open an IDE or software to run it
 2) on the code page click the code dropdown menu and copy the http link
 3) in terminal or command prompt type "git clone https://github.com/ineed-cmyk/educo.git" 
-4) In the choosen software to run it, run educo_real.
+4) In the choosen software to run it, run educo_real.py.
 
 
