@@ -15,7 +15,7 @@ try:
     from schedule_record import *
 
     # this takes or copies an existing data from notes_record
-    schedule = recorded_schedule
+    #schedule = recorded_schedule
 except ModuleNotFoundError:
     # this is to make sure that user has the file by making a new one, w or a doesnt matter for now
     dummy_var = open("schedule_record.py", "w")
@@ -30,9 +30,17 @@ except ModuleNotFoundError:
         "thursday": [],
         "friday": [],
         "saturday": [],
-        "sunday": [],
+        "sunday": []
     }
-
+schedule = {
+        "monday": [],
+        "tuesday": [],
+        "wednesday": [],
+        "thursday": [],
+        "friday": [],
+        "saturday": [],
+        "sunday": []
+    }
 
 # in this program you will see a lot of 2d lists being targeted
 # just remember this:
@@ -203,12 +211,12 @@ ScreenManager:
 <Nav_page>:
     name:'nav_page'
     Screen:
-        NavigationLayout:
+        MDNavigationLayout:
             ScreenManager:
                 Screen:
                     BoxLayout:
                         orientation: 'vertical'
-                        MDToolbar:
+                        MDTopAppBar:
                             title: "Navigate"
                             elevation: 10
                             left_action_items: [['menu', lambda x: nav_drawer.toggle_nav_drawer()]]
